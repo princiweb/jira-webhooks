@@ -1,1 +1,1 @@
-JIRA integration with Asana.
+JIRA integration with Asana and Toggl.
