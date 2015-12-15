@@ -6,9 +6,9 @@ using System.Web.Http;
 
 namespace jira_webhooks.api
 {
-    public class ValuesController : ApiController
+    public class AsanaController : ApiController
     {
-        // POST api/values
+        // POST api/asana
         public async Task<string> Post([FromBody]JiraMessage jiraMessage)
         {
             var client = new HttpClient

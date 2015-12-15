@@ -8,6 +8,7 @@
 
     public class Issue
     {
+        public string Key { get; set; }
         public Field Fields { get; set; }
     }
 
